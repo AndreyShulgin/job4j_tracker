@@ -94,6 +94,12 @@ public class Tracker {
         return rsl;
     }
 
+    /**
+     * Метод удаляет заявку из списка
+     *
+     * @param id - id заявки которую нужно удалить
+     * @return - если заявка удалена вернуть true
+     */
     public boolean delete(int id) {
         boolean result = false;
         int index = indexOf(id);
